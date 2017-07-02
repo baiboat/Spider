@@ -26,7 +26,7 @@ class SpiderMain(object):
 
                 count = count + 1
             except:
-                print "failed"
+                print "craw failed"
 
         self.outputer.output_html()
 
